@@ -1,113 +1,122 @@
-body{
+body {
     background-color: rgb(31, 30, 30);
-    color:white;
+    color: white;
 
 }
-.main-image{
-    width:100%;
-    height:500px;
-    margin:0px;
-    top:0;
+
+.main-image {
+    width: 100%;
+    height: 500px;
+    margin: 0px;
+    top: 0;
     position: absolute;
 }
-#name{
+
+#name {
     color: gold;
     font-size: 50px;
     text-align: center;
-    position:absolute;
-    margin:200px 600px 200px 600px;
+    position: absolute;
+    margin: 200px 600px 200px 600px;
 }
-.header-text1, .header-text2, .header-text3{
-    float:inline-end;
+
+.header-text1,
+.header-text2,
+.header-text3 {
+    float: inline-end;
     position: relative;
-    margin:10px;
-    height:10px;
+    margin: 10px;
+    height: 10px;
     font-size: 25px;
-    color:goldenrod;
+    color: goldenrod;
 
 }
 
-.content-image{
-    width:500px;
-    height:400px;
-    margin-top:700px;
-    margin-left:200px;
-    border-style:solid;
-    border-color:aquamarine;
-    position:absolute;
+.content-image {
+    width: 500px;
+    height: 400px;
+    margin-top: 700px;
+    margin-left: 200px;
+    border-style: solid;
+    border-color: aquamarine;
+    position: absolute;
 
 }
-.abt-h3{
-    margin-top:595px;
-    margin-left:600px;
+
+.abt-h3 {
+    margin-top: 595px;
+    margin-left: 600px;
     font-size: 50px;
-    text-align:center;
-    position:absolute;
-    color:gold;
+    text-align: center;
+    position: absolute;
+    color: gold;
 }
-.abt-h4{
-    margin-top:650px;
-    margin-left:625px;
-    font-size:25px;
-    text-align:center;
-    position:absolute;
-    color:rgb(238, 219, 106)
+
+.abt-h4 {
+    margin-top: 650px;
+    margin-left: 625px;
+    font-size: 25px;
+    text-align: center;
+    position: absolute;
+    color: rgb(238, 219, 106)
 }
-.div-about{
-    margin-top:750px;
-    margin-left:800px;
-    position:absolute; 
-    overflow:auto;
-    font-size:20px;
+
+.div-about {
+    margin-top: 750px;
+    margin-left: 800px;
+    position: absolute;
+    overflow: auto;
+    font-size: 20px;
 }
-#specs{
-    position:relative;
-    padding-top: 1400px;
-    text-align:center;
+
+#specs {
+    position: relative;
+    padding-top: 1300px;
+    text-align: center;
 
 }
-.specs-start{
-    padding:10px;
-    color:gold;
-    font-size:30px;
-    margin-left:90px;
+
+.specs-start {
+    padding: 5px;
+    color: gold;
+    font-size: 50px;
+    margin-left: 90px;
 
 }
-.specs-start2{
-    padding:10px;
-    color:whitesmoke;
-    font-size:15px;
-    margin-left:100px;
+
+.specs-start2 {
+    padding: 20px;
+    color: whitesmoke;
+    font-size: 40px;
+    margin-left: 100px;
 
 }
-.specs1{
-    margin-left: 0px;
-    margin-right:0px;
-    padding:30px;
-    overflow:auto;
-    border-radius: 10%;
-    background-color:gold;
-    color:rgb(31, 30, 30);
-    font-size:large;
-    box-sizing: 200px;
+
+#specs1 {
+    margin-top: 10px;
+    margin-left: 450px;
+    margin-right: 10px;
+    padding: 30px;
+    overflow: auto;
+    border-radius: 5%;
+    background-color: gold;
+    color: rgb(31, 30, 30);
+    font-size: large;
+    float: left;
+    position: relative;
 }
-.specs2{
-    margin-right:25px;
-    margin-left:25px;
-    padding:30px;
-    border-radius:20%;
-    overflow:auto;
-    background-color:gold;
-    color:rgb(31, 30, 30);
-    font-size:large;
-    box-sizing: 200px;
-}
-#specs-img1, #specs-img2{
-    width:50px;
-    height:50px;
-    margin:50px 30px 0px 30px;
-    padding:10px;
-    object-fit:cover;
-    border-radius: 25%;
-    box-sizing: border-box;
+
+#specs2 {
+    margin-top: 10px;
+    margin-right: 300px;
+    margin-left: 30px;
+    padding: 30px;
+    border-radius: 5%;
+    overflow: auto;
+    background-color: gold;
+    color: rgb(31, 30, 30);
+    font-size: large;
+    float: right;
+    font-style: bold;
+
 }
