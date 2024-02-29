@@ -37,8 +37,7 @@ body {
     height: 400px;
     margin-top: 700px;
     margin-left: 200px;
-    border-style: solid;
-    border-color: aquamarine;
+    box-shadow: 10px 10px 5px aquamarine;
     position: absolute;
 
 }
@@ -93,30 +92,236 @@ body {
 }
 
 #specs1 {
-    margin-top: 10px;
-    margin-left: 450px;
-    margin-right: 10px;
-    padding: 30px;
+    margin: 50px;
+    float: left;
     overflow: auto;
+    position: relative;
+    padding: 30px;
     border-radius: 5%;
     background-color: gold;
     color: rgb(31, 30, 30);
     font-size: large;
-    float: left;
-    position: relative;
 }
 
 #specs2 {
-    margin-top: 10px;
-    margin-right: 300px;
-    margin-left: 30px;
+    margin: 50px;
+    float: left;
+    overflow: auto;
+    position: relative;
     padding: 30px;
     border-radius: 5%;
-    overflow: auto;
     background-color: gold;
     color: rgb(31, 30, 30);
     font-size: large;
-    float: right;
     font-style: bold;
+
+}
+
+#specs3 {
+    margin: 50px;
+    float: left;
+    overflow: auto;
+    position: relative;
+    padding: 30px;
+    border-radius: 5%;
+    background-color: gold;
+    color: rgb(31, 30, 30);
+    font-size: large;
+    font-style: bold;
+}
+
+#specs4 {
+    margin: 50px;
+    float: left;
+    overflow: auto;
+    position: relative;
+    padding: 30px;
+    border-radius: 5%;
+    background-color: gold;
+    color: rgb(31, 30, 30);
+    font-size: large;
+    font-style: bold;
+}
+
+#port {
+    position: relative;
+    padding-top: 300px;
+    text-align: center;
+
+}
+
+.port-start {
+    padding: 5px;
+    color: gold;
+    font-size: 50px;
+    margin-left: 90px;
+
+}
+
+.port-start2 {
+    padding: 20px;
+    color: whitesmoke;
+    font-size: 40px;
+    margin-left: 100px;
+
+}
+
+#port1 {
+    float: left;
+    overflow: auto;
+    position: relative;
+    padding: 20px;
+    margin-left: 30px;
+}
+
+#port-text {
+    background-color: rgb(249, 221, 66);
+    color: black;
+    font-size: 30px;
+    width: 300px;
+    margin-top: 100px;
+
+    border-radius: 6%;
+    box-sizing: border-box;
+}
+
+.img-p1 {
+    float: left;
+    width: 300px;
+    height: 300px;
+
+}
+
+#port2 {
+    float: left;
+    overflow: auto;
+    position: relative;
+    padding: 20px;
+}
+
+#port-text2 {
+    background-color: rgb(249, 221, 66);
+    color: black;
+    font-size: 30px;
+    width: 300px;
+    margin-top: 100px;
+    border-radius: 6%;
+    box-sizing: border-box;
+
+}
+
+.img-p2 {
+    float: left;
+    width: 300px;
+    height: 300px;
+    border-radius: 6%
+}
+
+#port3 {
+    float: left;
+    overflow: auto;
+    position: relative;
+    padding: 20px;
+}
+
+#port-text3 {
+    background-color: rgb(249, 221, 66);
+    color: black;
+    font-size: 30px;
+    width: 300px;
+    margin-top: 100px;
+    border-radius: 6%;
+    box-sizing: border-box;
+
+}
+
+.img-p3 {
+    float: left;
+    width: 300px;
+    height: 300px;
+    border-radius: 6%
+}
+
+#port4 {
+    float: left;
+    overflow: auto;
+    position: relative;
+    padding: 20px;
+}
+
+#port-text4 {
+    background-color: rgb(249, 221, 66);
+    color: black;
+    font-size: 30px;
+    width: 300px;
+    margin-top: 100px;
+    border-radius: 6%;
+    box-sizing: border-box;
+
+}
+
+.img-p4 {
+    float: left;
+    width: 300px;
+    height: 300px;
+    border-radius: 6%
+}
+
+#suggestions {
+    position: relative;
+    width: 700px;
+    height: 125px;
+    margin: 600px 400px 200px 400px;
+    align-items: center;
+    background-color: rgb(71, 71, 71);
+    box-shadow: 10px 10px 5px gold;
+}
+
+.sugg1 {
+    padding: 30px;
+    font-size: 30px;
+    color: blanchedalmond;
+    text-align: center;
+    box-sizing: border-box;
+
+}
+
+.button5 {
+    background-color: rgb(249, 225, 89);
+    color: blanchedalmond;
+    box-sizing: border-box;
+
+}
+
+#footer {
+    background-color: gold;
+    color: black;
+    font-size: 25px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+}
+
+.button6 {
+    background-color: whitesmoke;
+    box-sizing: border-box;
+
+}
+
+.button7 {
+    background-color: whitesmoke;
+    box-sizing: border-box;
+
+}
+
+.button8 {
+    background-color: whitesmoke;
+    box-sizing: border-box;
+
+}
+
+.button9 {
+    background-color: whitesmoke;
+    box-sizing: border-box;
 
 }
