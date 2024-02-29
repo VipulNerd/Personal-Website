@@ -60,5 +60,54 @@ body{
     overflow:auto;
     font-size:20px;
 }
+#specs{
+    position:relative;
+    padding-top: 1400px;
+    text-align:center;
 
+}
+.specs-start{
+    padding:10px;
+    color:gold;
+    font-size:30px;
+    margin-left:90px;
 
+}
+.specs-start2{
+    padding:10px;
+    color:whitesmoke;
+    font-size:15px;
+    margin-left:100px;
+
+}
+.specs1{
+    margin-left: 0px;
+    margin-right:0px;
+    padding:30px;
+    overflow:auto;
+    border-radius: 10%;
+    background-color:gold;
+    color:rgb(31, 30, 30);
+    font-size:large;
+    box-sizing: 200px;
+}
+.specs2{
+    margin-right:25px;
+    margin-left:25px;
+    padding:30px;
+    border-radius:20%;
+    overflow:auto;
+    background-color:gold;
+    color:rgb(31, 30, 30);
+    font-size:large;
+    box-sizing: 200px;
+}
+#specs-img1, #specs-img2{
+    width:50px;
+    height:50px;
+    margin:50px 30px 0px 30px;
+    padding:10px;
+    object-fit:cover;
+    border-radius: 25%;
+    box-sizing: border-box;
+}
