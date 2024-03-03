@@ -1124,7 +1124,7 @@
 
     #specs1 {
         margin-top: 50px;
-        margin-left: 10px;
+        margin-left: 0px;
         float: left;
         overflow: auto;
         position: relative;
@@ -1136,7 +1136,7 @@
     }
 
     #specs2 {
-        margin-left: 10px;
+        margin-left: 0px;
         margin-top: 50px;
         float: left;
         overflow: auto;
@@ -1150,7 +1150,7 @@
     }
 
     #specs3 {
-        margin-left: 10px;
+        margin-left: 0px;
         margin-top: 50px;
         float: left;
         overflow: auto;
