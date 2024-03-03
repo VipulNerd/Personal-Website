@@ -1125,7 +1125,7 @@
     #specs1 {
         margin-top: 50px;
         margin-left: 0px;
-        float: left;
+
         overflow: auto;
         position: relative;
         padding: 30px;
@@ -1138,7 +1138,7 @@
     #specs2 {
         margin-left: 0px;
         margin-top: 50px;
-        float: left;
+
         overflow: auto;
         position: relative;
         padding: 30px;
@@ -1152,7 +1152,7 @@
     #specs3 {
         margin-left: 0px;
         margin-top: 50px;
-        float: left;
+
         overflow: auto;
         position: relative;
         padding: 30px;
@@ -1166,7 +1166,7 @@
     #specs4 {
         margin-left: 50px;
         margin-top: 50px;
-        float: left;
+
         overflow: auto;
         position: relative;
         padding: 30px;
