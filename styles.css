@@ -1164,7 +1164,7 @@
     }
 
     #specs4 {
-        margin-left: 120px;
+        margin-left: 10px;
         margin-top: 50px;
 
         overflow: auto;
@@ -1203,11 +1203,11 @@
     }
 
     #port1 {
-
+        float: left;
         overflow: auto;
         position: relative;
         padding: 50px;
-        margin: 30px;
+        margin: 25px;
     }
 
     #port-text {
@@ -1229,7 +1229,7 @@
     }
 
     #port2 {
-
+        float: left;
         overflow: auto;
         position: relative;
         padding: 50px;
@@ -1255,7 +1255,7 @@
     }
 
     #port3 {
-
+        float: left;
         overflow: auto;
         position: relative;
         padding: 50px;
@@ -1281,7 +1281,7 @@
     }
 
     #port4 {
-
+        float: left;
         overflow: auto;
         position: relative;
         padding: 50px;
