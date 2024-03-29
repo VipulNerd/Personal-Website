@@ -12,6 +12,23 @@
         margin: 0px;
         top: 0;
         position: absolute;
+        animation: slideIn 5s ease-in-out forwards;
+        animation-iteration-count: infinite;
+
+    }
+
+    @keyframes slideIn {
+        from {
+            transform: translateY(100px);
+            opacity: 0;
+
+        }
+
+        to {
+            transform: translateY(0);
+
+            opacity: 1;
+        }
     }
 
     #name {
@@ -41,7 +58,21 @@
         margin-left: 200px;
         box-shadow: 10px 10px 5px aquamarine;
         position: absolute;
+        animation: fadeIn 5s ease-in-out forwards;
+        animation-timing-function: infinite;
 
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+            /* Image starts invisible */
+        }
+
+        to {
+            opacity: 1;
+            /* Image fades in */
+        }
     }
 
     .abt-h3 {
@@ -278,6 +309,12 @@
         background-color: black;
         box-shadow: 10px 10px 5px gold;
         opacity: 70%;
+        transition: width 1s, height 1s;
+    }
+
+    #suggestions:hover {
+        width: 725px;
+        height: 150px;
     }
 
     #sugg1 {
@@ -350,6 +387,22 @@
         margin: 0px;
         top: 0;
         position: absolute;
+        animation: slideIn 5s ease-in-out forwards;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes slideIn {
+        from {
+            transform: translateY(100px);
+            opacity: 0;
+
+        }
+
+        to {
+            transform: translateY(0);
+
+            opacity: 1;
+        }
     }
 
     #name {
@@ -379,7 +432,21 @@
         margin-left: 150px;
         box-shadow: 10px 10px 5px aquamarine;
         position: absolute;
+        animation: fadeIn 5s ease-in-out forwards;
+        animation-timing-function: infinite;
 
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+            /* Image starts invisible */
+        }
+
+        to {
+            opacity: 1;
+            /* Image fades in */
+        }
     }
 
     .abt-h3 {
@@ -621,7 +688,14 @@
         background-color: black;
         box-shadow: 10px 10px 5px gold;
         opacity: 70%;
+        transition: width 1s, height 1s;
     }
+
+    #suggestions:hover {
+        width: 725px;
+        height: 150px;
+    }
+
 
     #sugg1 {
         padding: 30px;
@@ -693,6 +767,22 @@
         margin: 0px;
         top: 0;
         position: absolute;
+        animation: slideIn 5s ease-in-out forwards;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes slideIn {
+        from {
+            transform: translateY(100px);
+            opacity: 0;
+
+        }
+
+        to {
+            transform: translateY(0);
+
+            opacity: 1;
+        }
     }
 
     #name {
@@ -722,7 +812,21 @@
         margin-left: 150px;
         box-shadow: 10px 10px 5px aquamarine;
         position: absolute;
+        animation: fadeIn 5s ease-in-out forwards;
+        animation-timing-function: infinite;
 
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+            /* Image starts invisible */
+        }
+
+        to {
+            opacity: 1;
+            /* Image fades in */
+        }
     }
 
     .abt-h3 {
@@ -968,6 +1072,12 @@
         background-color: black;
         box-shadow: 10px 10px 5px gold;
         opacity: 70%;
+        transition: width 1s, height 1s;
+    }
+
+    #suggestions:hover {
+        width: 725px;
+        height: 150px;
     }
 
     #sugg1 {
@@ -1040,6 +1150,22 @@
         margin: 0px;
         top: 0;
         position: absolute;
+        animation: slideIn 5s ease-in-out forwards;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes slideIn {
+        from {
+            transform: translateY(100px);
+            opacity: 0;
+
+        }
+
+        to {
+            transform: translateY(0);
+
+            opacity: 1;
+        }
     }
 
     #name {
@@ -1070,6 +1196,21 @@
         box-shadow: 10px 10px 5px aquamarine;
         position: absolute;
 
+        animation: fadeIn 5s ease-in-out forwards;
+        animation-timing-function: infinite;
+
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+            /* Image starts invisible */
+        }
+
+        to {
+            opacity: 1;
+            /* Image fades in */
+        }
     }
 
     .abt-h3 {
@@ -1315,7 +1456,15 @@
         background-color: black;
         box-shadow: 10px 10px 5px gold;
         opacity: 70%;
+        opacity: 70%;
+        transition: width 1s, height 1s;
     }
+
+    #suggestions:hover {
+        width: 725px;
+        height: 150px;
+    }
+
 
     #sugg1 {
         padding: 30px;
